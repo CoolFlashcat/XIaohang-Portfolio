@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a {
+    background-color: #111;
+  }
+  li a:hover{
+    background-color: #04AA6D;
+  }
+  .yes{
+    background-color:#04AA6D;
+  }
+  .cover{
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+  }
+
+  img.cover{ 
+    filter: grayscale(30%);
+    
+  }
+  .centered {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #carouselExampleSlidesOnly{
+    padding-bottom:10px;
+   
+  }
+  .card{
+    padding-left:20px;
+    
+  }
+  .card2{
+    padding-left:20px;
+    margin:20px;
+  }
+  .featuredanimal{
+    text-align:center;
+  }
